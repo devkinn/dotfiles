@@ -5,7 +5,7 @@
 window {
   margin: 1px;
   border: 2px solid #8cb6ff;
-  border-radius: 15px 15px 15px 15px;
+  border-radius: 5px 5px 5px 5px;
 }
 
 #input {
@@ -26,7 +26,7 @@ window {
   margin: 2px;
   padding: 20px;
   background-color: #161616;
-  border-radius: 15px 15px 15px 15px;
+  border-radius: 5px 5px 5px 5px;
 }
 
 #text {
