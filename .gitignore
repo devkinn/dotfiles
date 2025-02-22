@@ -1,0 +1,5 @@
+# Fish related files/directories used for plugin files
+**/fish/completions
+**/fish/conf.d
+**/fish_variables
+**/fish/functions
