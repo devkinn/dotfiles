@@ -31,7 +31,7 @@
     },
     "custom/power":{
         "format": "",
-        "on-click": "~/.config/hypr/powermenu.sh"
+        "on-click": "~/.config/wofi/powermenu.sh"
     },
     "custom/media": {
         "format": "{icon} {0}",
