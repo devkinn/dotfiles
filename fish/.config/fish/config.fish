@@ -11,4 +11,6 @@ alias v="nvim"
 
 set -gx SSH_AUTH_SOCK "$XDG_RUNTIME_DIR/ssh-agent.socket"
 
+set -U fish_user_paths $HOME/.local/bin $fish_user_paths
+
 starship init fish | source
