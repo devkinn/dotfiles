@@ -13,3 +13,5 @@ window-padding-x = 5
 font-feature = -calt, -liga, -dlig
 
 shell-integration-features = no-cursor
+
+window-decoration = none
