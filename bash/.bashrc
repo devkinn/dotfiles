@@ -29,5 +29,6 @@ alias v="nvim"
 alias g="git"
 
 export GOPATH="$HOME/go"
+export SSH_AUTH_SOCK="$XDG_RUNTIME_DIR/ssh-agent.socket"
 
 eval "$(starship init bash)"
