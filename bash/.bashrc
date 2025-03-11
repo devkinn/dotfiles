@@ -28,4 +28,6 @@ alias lla="ls -al"
 alias v="nvim"
 alias g="git"
 
+export GOPATH="$HOME/go"
+
 eval "$(starship init bash)"
