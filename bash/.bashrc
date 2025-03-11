@@ -25,6 +25,7 @@ fi
 unset rc
 
 alias lla="ls -al"
+alias v="nvim"
+alias g="git"
 
 eval "$(starship init bash)"
-export GOPATH=$HOME/go
