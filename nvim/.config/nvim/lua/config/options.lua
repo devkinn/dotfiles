@@ -3,3 +3,5 @@
 -- Add any additional options here
 --
 vim.opt.spelllang = { "pl", "en" }
+
+vim.opt.clipboard = ""
