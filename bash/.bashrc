@@ -32,3 +32,4 @@ export GOPATH="$HOME/go"
 export SSH_AUTH_SOCK="$XDG_RUNTIME_DIR/ssh-agent.socket"
 
 eval "$(starship init bash)"
+eval "$(zoxide init bash)"
