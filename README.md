@@ -9,6 +9,7 @@ My configuration files for Linux.
 - Terminal: ghostty
 - Shell: Bash
 - Prompt: starship.rs
+- zoxide: for fast navigation around filesystem
 
 To deploy Cosmic dotfiles run:
 
