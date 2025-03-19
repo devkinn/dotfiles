@@ -35,13 +35,13 @@ id-case = "lower"
 
 # GROUP OVERRIDES
 [group.uni]
-paths = ["uni/**"]
+paths = ["uni"]
 
 [group.personal]
-paths = ["personal/**"]
+paths = ["personal"]
 
 [group.blog]
-paths = ["blog/**"]
+paths = ["blog"]
 
 # MARKDOWN SETTINGS
 [format.markdown]
@@ -66,6 +66,7 @@ pager = "less -FIRX"
 
 # Command used to preview a note during interactive fzf mode.
 fzf-preview = "bat -p --color always {-1}"
+fzf-line = "{{style 'blue' rel-path}}{{#each tags}} #{{this}}{{/each}} {{style 'black' body}}"
 
 # NAMED FILTERS
 [filter]
@@ -85,6 +86,8 @@ lucky = "zk list --quiet --format full --sort random --limit 1"
 
 # Create a note with title without passing the --title argument
 nt = 'zk new --title "$*"'
+
+uni = 'zk new --no-input "$ZK_NOTEBOOK_DIR/uni" --title "$*"'
 
 # LSP (EDITOR INTEGRATION)
 [lsp]

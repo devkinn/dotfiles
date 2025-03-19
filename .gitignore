@@ -3,3 +3,7 @@
 **/fish/conf.d
 **/fish_variables
 **/fish/functions
+
+# Cosmic DE related files
+**/v1/active-page
+**/com.system76.CosmicSettings/v1/*
