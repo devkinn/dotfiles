@@ -27,6 +27,7 @@ unset rc
 alias lla="ls -al"
 alias v="nvim"
 alias g="git"
+alias lg="lazygit"
 
 export GOPATH="$HOME/go"
 export SSH_AUTH_SOCK="$XDG_RUNTIME_DIR/ssh-agent.socket"
