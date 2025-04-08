@@ -41,6 +41,7 @@ return {
     ---@module 'render-markdown'
     ---@type render.md.UserConfig
     opts = {
+      render_modes = true,
       code = {
         sign = false,
         width = "block",
@@ -52,6 +53,10 @@ return {
       },
       checkbox = {
         enabled = false,
+      },
+      link = {
+        email = " ",
+        wiki = { icon = "󰸖 ", highlight = "RenderMarkdownWikiLink" },
       },
     },
   },
