@@ -1,0 +1,12 @@
+[general]
+import = [
+    "~/.config/alacritty/themes/terafox.toml"
+]
+
+[window]
+decorations = "None"
+padding = { x = 7, y = 7 }
+
+[font]
+normal = { family = "JetBrainsMono Nerd Font", style = "Regular" }
+size = 13
