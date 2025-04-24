@@ -15,9 +15,12 @@ alias lla="ls -al"
 alias v="nvim"
 alias g="git"
 alias lg="lazygit"
+alias tk="tmux kill-ses"
 
 export GOPATH="$HOME/go"
 export SSH_AUTH_SOCK="$XDG_RUNTIME_DIR/ssh-agent.socket"
+
+export ZK_ROOT="$HOME/notes/"
 
 eval "$(starship init bash)"
 eval "$(zoxide init bash)"
