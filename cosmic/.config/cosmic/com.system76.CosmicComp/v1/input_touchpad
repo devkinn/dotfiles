@@ -1,4 +1,0 @@
-(
-    state: Enabled,
-    click_method: Some(ButtonAreas),
-)
