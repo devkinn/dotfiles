@@ -17,6 +17,11 @@ alias g="git"
 alias lg="lazygit"
 alias tk="tmux kill-ses"
 
+# Set EDITOR environmental variable to nvim if it is installed
+if command -v "nvim" >/dev/null 2>&1; then
+  export EDITOR="nvim"
+fi
+
 export GOPATH="$HOME/go"
 export SSH_AUTH_SOCK="$XDG_RUNTIME_DIR/ssh-agent.socket"
 
