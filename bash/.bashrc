@@ -27,6 +27,9 @@ export SSH_AUTH_SOCK="$XDG_RUNTIME_DIR/ssh-agent.socket"
 
 export ZK_ROOT="$HOME/notes/"
 
-eval "$(starship init bash)"
+if command -v "starship" >/dev/null 2>&1; then
+  eval "$(starship init bash)"
+fi
+
 eval "$(zoxide init bash)"
 eval "$(fzf --bash)"
