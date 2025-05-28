@@ -22,7 +22,6 @@ if command -v "nvim" >/dev/null 2>&1; then
   export EDITOR="nvim"
 fi
 
-export GOPATH="$HOME/go"
 export SSH_AUTH_SOCK="$XDG_RUNTIME_DIR/ssh-agent.socket"
 
 export ZK_ROOT="$HOME/notes/"
