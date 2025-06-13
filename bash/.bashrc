@@ -11,7 +11,6 @@ if ! [[ "$PATH" =~ "$HOME/.local/bin:$HOME/bin:" ]]; then
 fi
 export PATH
 
-alias lla="ls -al"
 alias v="nvim"
 alias g="git"
 alias lg="lazygit"
@@ -28,6 +27,16 @@ export ZK_ROOT="$HOME/notes/"
 
 if command -v "starship" >/dev/null 2>&1; then
   eval "$(starship init bash)"
+fi
+
+if command -v "eza" >/dev/null 2>&1; then
+  EZA_DEFAULT_OPTS="--color=always --group-directories-first --icons"
+  alias ls="eza $EZA_DEFAULT_OPTS"
+  alias ll="eza --long --git $EZA_DEFAULT_OPTS"
+  alias lla="eza --long --all --git $EZA_DEFAULT_OPTS"
+  alias lt="eza --tree --level=2 $EZA_DEFAULT_OPTS"
+else
+  alias lla="ls -al"
 fi
 
 eval "$(zoxide init bash)"
