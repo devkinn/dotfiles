@@ -1,6 +1,6 @@
 [general]
 import = [
-    "~/.config/alacritty/themes/terafox.toml"
+    "~/.config/alacritty/themes/nightfox.toml"
 ]
 
 [window]
