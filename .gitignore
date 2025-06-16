@@ -1,10 +1,2 @@
-# Fish related files/directories used for plugin files
-**/fish/completions
-**/fish/conf.d
-**/fish_variables
-**/fish/functions
-
-# Cosmic DE related files
-**/v1/active-page
-**/com.system76.CosmicSettings/v1/*
-**/com.system76.CosmicComp/v1/*
+# Fish universal variables that are device specific
+fish_variables
