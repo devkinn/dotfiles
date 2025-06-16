@@ -18,9 +18,17 @@ eval "$(fzf --bash)"
 
 # --- ALIASES ---
 alias v="nvim"
-alias g="git"
 alias lg="lazygit"
 alias tk="tmux kill-ses"
+
+# Git
+alias g="git"
+alias gl="git log"
+alias gll="git log --oneline"
+alias gcm="git commit -m"
+
+# kubectl
+alias k="kubectl"
 
 # Replace ls with eza
 if command -v "eza" >/dev/null 2>&1; then
