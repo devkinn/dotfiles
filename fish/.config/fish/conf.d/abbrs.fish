@@ -10,6 +10,8 @@ abbr -a gcm git commit -m
 abbr -a gpl git pull
 abbr -a gps git push
 
+abbr -a gs git status
+
 # --- kubectl ---
 abbr -a k kubectl
 
